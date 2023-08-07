@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "MeuNumero",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "MeuTexto",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MeuContrato.sol": "MeuContrato"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MeuContrato.sol": {
+			"keccak256": "0x4ade98c5880da2d7ab5efe04113131c698f100dc366c32fda858d94d82fe4a37",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aab63a4fa84eed2aea7b5eb15104219d81759eb3871f5afcf820a48a51379e37",
+				"dweb:/ipfs/QmWLNzU68SrTKXFi1vs9NNkF75jmGLCdGEFQZS5BybrDbf"
+			]
+		}
+	},
+	"version": 1
+}

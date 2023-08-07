@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "dobraNumero",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DobraVariavel.sol": "DobraVariavel"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DobraVariavel.sol": {
+			"keccak256": "0x45d9263713ccf3fcc8d4077ca886ce9c17ae73b4d8cb353d014a4ad7a67c9b69",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa4daec594f0e34cfbad68948d8a24115bd602a5264a4a6718333bb78617c459",
+				"dweb:/ipfs/QmUPWCB1MazHSnKzDUt7HJyMn91G117ZKcuUNRuz7nJN84"
+			]
+		}
+	},
+	"version": 1
+}

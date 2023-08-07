@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "pegaNumero",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PegaVariavel.sol": "PegaVariavel"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PegaVariavel.sol": {
+			"keccak256": "0xee4580a44d27520a6e1274bcec3edcca8684d24ff23641daaa214733f9f5d760",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ed8eabcfdda27bb50ef1f66b02e1d2463aa4c53740ff616200033103b1f1bad2",
+				"dweb:/ipfs/QmRcs4p7JY4t57pXDDvqxeKCpCWitopsXStywD7JSLEWeD"
+			]
+		}
+	},
+	"version": 1
+}
