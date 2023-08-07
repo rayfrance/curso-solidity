@@ -9,10 +9,8 @@ contract Transaction {
         return contagem;
     }
 
-    function incrementa() public returns (int) {
-        // varivel local
-        int incrementador = 3;
-        contagem = contagem + incrementador;
+    function incrementa(int _incrementador) public returns (int) {
+        contagem = contagem + _incrementador;
         return contagem;
     }
 }
