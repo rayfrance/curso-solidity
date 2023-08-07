@@ -8,8 +8,11 @@ contract Transaction {
     function pegaContagem() public view returns (int) {
         return contagem;
     }
-     function incrementa() public returns (int) {
-        contagem = contagem + 1;
+
+    function incrementa() public returns (int) {
+        // varivel local
+        int incrementador = 3;
+        contagem = contagem + incrementador;
         return contagem;
-     }
+    }
 }
